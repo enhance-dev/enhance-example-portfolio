@@ -1,11 +1,11 @@
 const images = [
-  'ricardo-gomez-angel-9AjwOAIdsII-unsplash.jpg',
-  'michal-matlon-LeDdprHE9h4-unsplash.jpg',
-  'michal-matlon-ogCW7jwHpLY-unsplash.jpg',
+  '/_public/images/architecture/ricardo-gomez-angel-9AjwOAIdsII-unsplash.jpg',
+  '/_public/images/architecture/michal-matlon-LeDdprHE9h4-unsplash.jpg',
+  '/_public/images/architecture/michal-matlon-ogCW7jwHpLY-unsplash.jpg',
 ]
 
 export default function CoverImage({ html }) {
-  const imageElements = images.map(image => `<img src='/_public/images/${image}' alt='' class='absolute object-cover' />`).join('')
+  const imageElements = images.map(image => `<img src='${image}' alt='' class='absolute object-cover' />`).join('')
 
   return html`
     <style>
@@ -15,7 +15,7 @@ export default function CoverImage({ html }) {
 
       figure {
         width: 100%;
-        aspect-ratio: var(--aspect-ratio, 3 / 2);
+        aspect-ratio: var(--aspect-ratio, 3 / 2); /* Supplied aspect ratio, or 3/2 by default */
       }
 
       img {
@@ -26,8 +26,11 @@ export default function CoverImage({ html }) {
         position: absolute;
       }
     </style>
+
     <figure class='relative flex align-items-center justify-content-center overflow-hidden'>
       ${imageElements}
+
+      <!-- An optional slot for content to be rendered over top of the images -->
       <slot name='content'></slot>
     </figure>
 

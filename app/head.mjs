@@ -30,6 +30,14 @@ export default function Head () {
           font-weight: 600;
           src: url("/_public/fonts/HKGrotesk-SemiBold.woff2") format("woff2")
         }
+
+        body {
+          color: var(--dark);
+        }
+
+        a {
+          text-decoration: underline 1px;
+        }
       </style>
     </head>
     <body class='font-sans'>
