@@ -11,7 +11,7 @@ export default function ScrollsnapGallery({ html }) {
       }
 
       img {
-        max-inline-size: 100%;
+        max-inline-size: 90%;
         max-block-size: 80vh;
         object-fit: contain;
       }
