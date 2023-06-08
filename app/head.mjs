@@ -33,6 +33,7 @@ export default function Head () {
 
         body {
           color: var(--dark);
+          text-rendering: optimizeLegibility;
         }
 
         a {

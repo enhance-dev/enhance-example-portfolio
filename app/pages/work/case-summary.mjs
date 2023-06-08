@@ -4,8 +4,11 @@ export default function CaseSummary({ html, state }) {
 
   return html`
     <style>
-      img {
+      figure > div {
         aspect-ratio: var(--aspect-ratio, 3 / 2);
+      }
+
+      img {
         scale: var(--initial-scale, 1);
         opacity: var(--initial-opacity, 0.75);
         transition: scale var(--transition-duration, 0.5s) var(--timing-function, ease-out),
