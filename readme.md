@@ -19,7 +19,7 @@ A basic primer on Enhance will further help you understand how this project's co
 - Parametric CSS classes, powered by [Enhance’s utility class system](https://enhance.dev/docs/learn/concepts/styling/utility-classes)
 
 ## Usage
-You're free to use the code in this example app however you’d like, including using it to build your own portfolio website, or cribbing any of the custom elements, styles, etc. Attribution is always appreciated, but is not required.
+While this code is provided as an example rather than a fully flexible template, you're free to use the code in this example app however you’d like — including using it to build your own portfolio website, or cribbing any of the custom elements, styles, etc. Attribution is always appreciated, but is not required.
 
 Here’s a brief overview on what you’ll need to do to run this code locally:
 
