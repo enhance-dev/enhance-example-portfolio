@@ -37,7 +37,9 @@ export default function Head () {
         }
 
         a {
-          text-decoration: underline 1px;
+          text-decoration: underline;
+          text-decoration-thickness: 0.0625em;
+          text-underline-offset: 0.0625em;
         }
       </style>
     </head>
