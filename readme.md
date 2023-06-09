@@ -10,6 +10,14 @@ Just like web standards, Enhance is designed to be easy to approach, while offer
 
 A basic primer on Enhance will further help you understand how this project's codebase comes together — so be sure to [check out the Enhance docs](https://enhance.dev/docs)!
 
+## What’s included?
+- Fully responsive layouts, including layouts based on [container queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_container_queries)
+- Two different gallery styles — a horizontally scrolling gallery featuring [CSS snap scrolling](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll_snap), and an image grid featuring lightboxes powered by [native `dialog` elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog)
+- A variety of custom elements authored as Single File Components, which can be used separately or composed together
+- Progressive enhancement strategies to provide functionality if/when JavaScript fails to load
+- Fluid typography and spacing, powered by [Enhance’s fluid modular scales](https://enhance.dev/docs/learn/concepts/styling/modular-scales)
+- Parametric CSS classes, powered by [Enhance’s utility class system](https://enhance.dev/docs/learn/concepts/styling/utility-classes)
+
 ## Usage
 You're free to use the code in this example app however you’d like, including using it to build your own portfolio website, or cribbing any of the custom elements, styles, etc. Attribution is always appreciated, but is not required.
 
