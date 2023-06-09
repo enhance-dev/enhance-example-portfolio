@@ -42,5 +42,8 @@ app/
 
 Another point of interest will be the `styleguide.json` file, which lives at the root of the project. Learn more about using this file to generate parametric CSS classes in [the styling section of the Enhance docs](https://enhance.dev/docs/learn/concepts/styling/)!
 
+### Deploy
+If you’d like to deploy your own version of this app, check out [Begin](https://begin.com)! You can get started for free in a matter of minutes.
+
 ## Questions? Feedback? Let us know!
 If you have any questions or feedback about this example — or about Enhance in general — feel free to [join us on Discord](https://enhance.dev/discord)!
