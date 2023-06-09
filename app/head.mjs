@@ -1,17 +1,27 @@
+import titlesByPath from './lib/titlesByPath.mjs'
 import { getStyles }  from '@enhance/arc-plugin-styles'
 
 const { linkTag } = getStyles
 
-export default function Head () {
+export default function Head(state) {
+  const { req } = state
+  const { path } = req
+
+  const title = titlesByPath[path] || ''
+
   return `
     <!DOCTYPE html>
     <html lang="en">
     <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title></title>
-      ${linkTag()}
+      <meta name="image" content="/_public/adc-open-graph.jpg" />
+      <meta name="og:image" content="/_public/adc-open-graph.jpg" />
+      <meta name="og:type" content="website" />
       <link rel="icon" href="/_public/favicon.svg">
+      <title>a.d.c — ${title}</title>
+      <meta name="description" content="An example of a design portfolio built with Enhance — the HTML first full stack web framework" />
+      ${linkTag()}
       <style>
         @font-face {
           font-family: "HK Grotesk";
