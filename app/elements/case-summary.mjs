@@ -12,7 +12,8 @@ export default function CaseSummary({ html, state }) {
           opacity var(--transition-duration, 0.5s) var(--timing-function, ease-out);
       }
 
-      :host:hover img {
+      :host:hover img,
+      a:focus img {
         scale: var(--hover-scale, 1.125);
         opacity: var(--hover-opacity, 1);
       }
