@@ -1,7 +1,7 @@
 const images = [
   '/_public/images/architecture/ricardo-gomez-angel-9AjwOAIdsII-unsplash.jpg',
-  '/_public/images/architecture/michal-matlon-LeDdprHE9h4-unsplash.jpg',
-  '/_public/images/architecture/michal-matlon-ogCW7jwHpLY-unsplash.jpg',
+  '/_public/images/furniture/mahmoud-azmy-iFVuDQZAxFc-unsplash.jpg',
+  '/_public/images/lighting/reinaldo-kevin-EQz1tZWS1hM-unsplash.jpg',
 ]
 
 export default function CoverImage({ html }) {
