@@ -12,6 +12,10 @@ export default function CaseSummary({ html, state }) {
           opacity var(--transition-duration, 0.5s) var(--timing-function, ease-out);
       }
 
+      a:focus {
+        outline-offset: 0.5em;
+      }
+
       :host:hover img,
       a:focus img {
         scale: var(--hover-scale, 1.125);
