@@ -19,7 +19,7 @@ export default function CoverImage({ html }) {
       }
 
       img {
-        transition: opacity 0.5s linear;
+        transition: opacity var(--transition-duration, 0.5s) linear;
       }
 
       [slot='content'] {
