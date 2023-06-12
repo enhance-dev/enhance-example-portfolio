@@ -35,6 +35,8 @@ export default function CoverImage({ html }) {
     </figure>
 
     <script type='module'>
+      // Duration to show each image for, in milliseconds
+      const imageIntervalDuration = 3000
       const images = document.querySelectorAll('cover-image img')
       const imageCount = images.length - 1
       let currentIndex = 0
@@ -56,7 +58,7 @@ export default function CoverImage({ html }) {
       }
 
       // Off to the races!
-      setInterval(onInterval, 3000)
+      setInterval(onInterval, imageIntervalDuration)
     </script>
   `
 }
