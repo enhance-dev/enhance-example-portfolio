@@ -3,11 +3,10 @@ export default function ImageGrid({ html }) {
     <style>
       :host {
         display: block;
-        container-type: inline-size;
       }
 
       section {
-        grid-template-columns: repeat(auto-fit, minmax(max(20cqi, 250px), 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(max(20%, 250px), 1fr));
       }
     </style>
     <section class='grid gap0'>
