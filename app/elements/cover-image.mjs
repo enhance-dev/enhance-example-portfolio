@@ -5,7 +5,16 @@ const images = [
 ]
 
 export default function CoverImage({ html }) {
-  const imageElements = images.map(image => `<img src='${image}' alt='' class='absolute object-cover' />`).join('')
+  const imageElements = images.map(image => `
+    <enhance-image
+      src='${image}'
+      defaultWidth='800'
+      variant1='(min-width: 90em) 2000'
+      variant2='(min-width: 36em) 1400'
+      alt=''
+      class='absolute object-cover'
+    ></enhance-image>
+  `).join('')
 
   return html`
     <style>
