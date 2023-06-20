@@ -1,7 +1,7 @@
 const images = [
-  '/_public/images/architecture/ricardo-gomez-angel-9AjwOAIdsII-unsplash.jpg',
-  '/_public/images/furniture/mahmoud-azmy-iFVuDQZAxFc-unsplash.jpg',
-  '/_public/images/lighting/reinaldo-kevin-EQz1tZWS1hM-unsplash.jpg',
+  '/_public/images/architecture/ricardo-gomez-angel-9AjwOAIdsII-unsplash.webp',
+  '/_public/images/furniture/mahmoud-azmy-iFVuDQZAxFc-unsplash.webp',
+  '/_public/images/lighting/reinaldo-kevin-EQz1tZWS1hM-unsplash.webp',
 ]
 
 export default function CoverImage({ html }) {
