@@ -21,6 +21,7 @@ export default function ScrollsnapGallery({ html }) {
       snap-align='start'
       snap-type='mandatory'
       class='si-100'
+      tabindex='0'
     >
       <slot></slot>
     </layout-collection>
